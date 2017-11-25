@@ -7,7 +7,9 @@
     "configs"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release:major": "ta-script npm/release major",
+    "release:minor": "ta-script npm/release minor",
+    "release:patch": "ta-script npm/release patch"
   },
   "author": "David Zukowski <zukoweb@gmail.com> (http://zuko.me)",
   "license": "ISC",
@@ -16,5 +18,8 @@
     "eslint-config-prettier": "^2.8.0",
     "eslint-plugin-prettier": "^2.3.1",
     "prettier": "^1.8.2"
+  },
+  "devDependencies": {
+    "ta-scripts": "^2.5.2"
   }
 }
