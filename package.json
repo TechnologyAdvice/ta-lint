@@ -1,5 +1,5 @@
 {
-  "name": "ta-lint",
+  "name": "@technologyadvice/ta-lint",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
