@@ -10,7 +10,7 @@ yarn add --dev ta-lint
 
 ### Prettier
 
-Create a `prettier.config.json` in the root of your project that exports our standard configuration:
+Create a `prettier.config.js` in the root of your project that exports our standard configuration:
 
 ```js
 // prettier.config.js
